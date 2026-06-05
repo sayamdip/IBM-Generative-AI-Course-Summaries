@@ -1,0 +1,51 @@
+Resource_ID,Resource_Type,Resource_Name,Provider,Topic,Subtopic,Difficulty_Level,Duration_Hours,Prerequisites,Cost_USD,URL,Key_Skills,Certification_Available,Last_Updated,Learning_Path
+GA001,Course,Generative AI Engineering,IBM,Fundamentals,LLM Basics,Beginner,20,None,0,https://www.ibm.com/generative-ai,LLM Architecture;Transformers;Prompting,Yes,2025-01,Foundation
+GA002,Course,Google Generative AI Essentials,Google,Fundamentals,LLM Basics,Beginner,15,None,0,https://cloud.google.com/generative-ai,Gen AI Concepts;Google AI Tools,Yes,2025-02,Foundation
+GA003,Course,Transformer Models and Attention,DeepLearning.AI,Architecture,Transformers,Intermediate,10,ML Fundamentals,Free,https://www.deeplearning.ai,Attention Mechanism;Self-Attention;Positional Encoding,No,2025-01,Architecture
+GA004,Course,Prompt Engineering Masterclass,Andrew Ng,Techniques,Prompt Design,Beginner,8,None,49,https://www.deeplearning.ai/short-courses/,Few-shot Learning;Chain-of-Thought;Role Prompting,No,2025-02,Intermediate
+GA005,Course,Fine-tuning LLMs,DeepLearning.AI,Techniques,Model Adaptation,Intermediate,6,ML Fundamentals;LLM Basics,Free,https://www.deeplearning.ai/short-courses/,PEFT;LoRA;QLoRA;Fine-tuning,No,2025-01,Advanced
+GA006,Course,Retrieval Augmented Generation (RAG),DeepLearning.AI,Applications,RAG Systems,Intermediate,4,LLM Basics;Vector Databases,Free,https://www.deeplearning.ai/short-courses/,Vector Search;Embeddings;RAG Pipeline,No,2025-02,Intermediate
+GA007,Course,LangChain for LLM Applications,DeepLearning.AI,Tools,LangChain,Intermediate,5,Python;LLM Basics,Free,https://www.deeplearning.ai/short-courses/,Chains;Memory;Agents;Tools,No,2025-01,Intermediate
+GA008,Course,Large Language Models: From Theory to Practice,Stanford,Theory,LLM Theory,Advanced,40,Advanced Math;Deep Learning,Free,https://cs224n.github.io/,Model Architecture;Training;Evaluation,No,2024-12,Advanced
+GA009,Course,Hugging Face NLP Course,Hugging Face,Tools,Transformers Library,Beginner,25,Python,Free,https://huggingface.co/course,Transformers;Datasets;Evaluation,No,2025-02,Foundation
+GA010,Course,OpenAI API Fundamentals,OpenAI,Tools,OpenAI API,Beginner,10,Python,Free,https://platform.openai.com/docs,API Integration;GPT Models;Completion,No,2025-01,Foundation
+GA011,Course,Claude API & Prompt Engineering,Anthropic,Tools,Claude API,Beginner,8,Python,Free,https://docs.anthropic.com,API Usage;Prompt Techniques;Vision,No,2025-02,Foundation
+GA012,Course,Building AI Agents,DeepLearning.AI,Applications,Autonomous Agents,Advanced,6,LLM Basics;LangChain,Free,https://www.deeplearning.ai/short-courses/,Agent Design;Tool Use;Planning,No,2025-02,Advanced
+GA013,Course,Vector Databases for Gen AI,DataStax,Tools,Vector Databases,Intermediate,5,Databases;Python,Free,https://www.datastax.com/generative-ai,Vector Search;Embeddings;Storage,No,2025-01,Intermediate
+GA014,Course,GenAI for Code Generation,GitHub & Microsoft,Applications,Code Generation,Intermediate,6,Programming,Free,https://github.com/features/copilot,Copilot;Code Understanding;Optimization,No,2025-02,Intermediate
+GA015,Course,Ethical AI & Responsible Gen AI,Coursera,Concepts,Ethics & Safety,Beginner,8,None,Free,https://www.coursera.org/learn/ai-ethics-generative-ai,Bias;Safety;Fairness;Governance,Yes,2025-01,Foundation
+GA016,Book,Attention Is All You Need,Research Paper,Architecture,Transformers,Advanced,12,Advanced Math,Free,https://arxiv.org/abs/1706.03762,Transformer Architecture;Multi-head Attention,No,2017-06,Advanced
+GA017,Book,The Illustrated Transformer,Blog,Architecture,Transformers,Intermediate,3,None,Free,https://jalammar.github.io/illustrated-transformer/,Visual Learning;Attention;Positional Encoding,No,2020-03,Architecture
+GA018,Tutorial,Building LLM Applications with LangChain,Real Python,Tools,LangChain,Intermediate,4,Python;LLM Basics,Free,https://realpython.com/langchain-llm-applications/,Integration;Chains;Memory,No,2024-12,Intermediate
+GA019,Tutorial,Getting Started with RAG,Pinecone,Applications,RAG Systems,Intermediate,3,Vector Databases,Free,https://docs.pinecone.io/guides/getting-started/introduction,Semantic Search;Context Retrieval,No,2025-01,Intermediate
+GA020,Documentation,OpenAI API Documentation,OpenAI,Tools,OpenAI API,Beginner,4,None,Free,https://platform.openai.com/docs/introduction,Models;Endpoints;Authentication,No,2025-02,Foundation
+GA021,Documentation,Hugging Face Transformers Docs,Hugging Face,Tools,Transformers Library,Intermediate,6,Python,Free,https://huggingface.co/docs/transformers/,Library Usage;Model Loading;Fine-tuning,No,2025-02,Foundation
+GA022,Tool,OpenAI ChatGPT,OpenAI,Tools,LLM Playground,Beginner,0,None,20,https://chat.openai.com,Prompting;Experimentation;Testing,No,2025-02,Foundation
+GA023,Tool,Claude 3 (Anthropic),Anthropic,Tools,LLM Playground,Beginner,0,None,20,https://claude.ai,Advanced Prompting;Vision;Analysis,No,2025-02,Foundation
+GA024,Tool,Google Bard/Gemini,Google,Tools,LLM Playground,Beginner,0,None,Free,https://gemini.google.com,Multimodal;Real-time;Integration,No,2025-02,Foundation
+GA025,Tool,Copilot (GitHub/Microsoft),Microsoft,Tools,Code Generation,Beginner,0,None,10-19,https://github.com/features/copilot,Code Suggestion;Auto-completion,No,2025-02,Intermediate
+GA026,Tool,LangChain Framework,LangChain,Tools,Application Framework,Intermediate,8,Python,Free,https://www.langchain.com,Chains;Memory;Agents;RAG,No,2025-02,Intermediate
+GA027,Tool,LlamaIndex (GPT Index),LlamaIndex,Tools,RAG Framework,Intermediate,6,Python;Vector DB,Free,https://www.llamaindex.ai,Document Indexing;Query,No,2025-02,Intermediate
+GA028,Tool,Pinecone Vector DB,Pinecone,Tools,Vector Databases,Beginner,4,Databases,Free-499,https://www.pinecone.io,Vector Search;Scaling,No,2025-02,Intermediate
+GA029,Tool,Weaviate Vector DB,Weaviate,Tools,Vector Databases,Beginner,4,Databases,Free,https://weaviate.io,Semantic Search;Integration,No,2025-02,Intermediate
+GA030,Tool,Chroma Vector DB,Chroma,Tools,Vector Databases,Beginner,3,Python,Free,https://www.trychroma.com,Lightweight;Easy Setup,No,2025-02,Intermediate
+GA031,Specialization,Andrew Ng Generative AI Specialization,Coursera,Specialization,Complete Path,Intermediate,40,ML Fundamentals,49-199,https://www.coursera.org/specializations/generative-ai,LLMs;Prompt;Fine-tuning;RAG;Agents,Yes,2025-01,Comprehensive
+GA032,Specialization,IBM Generative AI Engineering Professional Certificate,Coursera,Specialization,Complete Path,Intermediate,35,Python;ML Basics,39-199,https://www.coursera.org/professional-certificates/generative-ai-engineering,LLM Fundamentals;Tools;Applications,Yes,2025-02,Comprehensive
+GA033,Project,Build a Chatbot with OpenAI API,Self-Directed,Applications,Chatbot Development,Beginner,5,Python;OpenAI API,Free,None,API Integration;NLP;UX,No,2025-01,Practical
+GA034,Project,Implement RAG System with Pinecone,Self-Directed,Applications,RAG Implementation,Intermediate,8,Python;Vector DB;LLM,Free,None,Vector Search;Retrieval;Chunking,No,2025-02,Practical
+GA035,Project,Fine-tune BERT for Text Classification,Self-Directed,Techniques,Transfer Learning,Intermediate,6,Python;Transformers;Deep Learning,Free,None,Fine-tuning;Classification;Evaluation,No,2025-01,Practical
+GA036,Article,The Transformer Architecture Explained,Medium,Architecture,Transformers,Intermediate,2,None,Free,https://medium.com/the-dl/transformers-explained-visually-2dde3504ce58,Visual Learning;Architecture,No,2024-06,Architecture
+GA037,Article,Prompt Engineering Best Practices,OpenAI Blog,Techniques,Prompt Design,Beginner,1,None,Free,https://openai.com/blog/prompt-engineering-101,Techniques;Examples;Best Practices,No,2024-12,Intermediate
+GA038,Article,Building Production LLM Applications,LangChain Blog,Applications,Production Systems,Advanced,3,LLM Basics;LangChain,Free,https://blog.langchain.dev,Deployment;Monitoring;Scale,No,2025-01,Advanced
+GA039,Conference,NeurIPS (Neural Information Processing Systems),Multiple,Research,Latest Research,Advanced,20,Advanced Math;Research,Free,https://neurips.cc,Cutting-edge;Networking;Papers,No,2024-12,Research
+GA040,Conference,ICML (International Conference on Machine Learning),Multiple,Research,Latest Research,Advanced,20,Advanced Math;Research,Free,https://icml.cc,New Algorithms;Benchmarks,No,2025-02,Research
+GA041,Community,Hugging Face Community,Hugging Face,Community,Peer Learning,Beginner,Self-paced,None,Free,https://huggingface.co/community,Discussions;Projects;Models,No,2025-02,Support
+GA042,Community,DeepLearning.AI Discord,DeepLearning.AI,Community,Peer Learning,Beginner,Self-paced,None,Free,https://discord.gg/deeplearning,Q&A;Networking,No,2025-02,Support
+GA043,Benchmark,SuperGLUE Benchmark,Benchmark,Evaluation,Model Evaluation,Advanced,Variable,NLP Knowledge,Free,https://super.gluebenchmark.com,Performance Metrics;Benchmarking,No,2024-12,Advanced
+GA044,Benchmark,HELM (Holistic Evaluation of Language Models),CRFM,Evaluation,Comprehensive Eval,Advanced,Variable,LLM Knowledge,Free,https://crfm.stanford.edu/helm,Multi-dimensional Evaluation,No,2025-01,Advanced
+GA045,Research Paper,Chain-of-Thought Prompting,Google,Techniques,Prompting Strategy,Advanced,3,LLM Basics,Free,https://arxiv.org/abs/2201.11903,Reasoning;Prompting;Few-shot,No,2022-01,Advanced
+GA046,Research Paper,In-Context Learning in LLMs,DeepMind,Concepts,Model Behavior,Advanced,4,Transformers,Free,https://arxiv.org/abs/2212.04037,Learning Mechanisms;Few-shot,No,2022-12,Advanced
+GA047,Research Paper,LoRA: Low-Rank Adaptation,Microsoft,Techniques,Parameter Efficiency,Advanced,3,Fine-tuning,Free,https://arxiv.org/abs/2106.09685,Efficient Tuning;PEFT,No,2021-06,Advanced
+GA048,Podcast,Latent Space: GenAI Weekly,Latent Space,News & Trends,Industry Updates,Beginner,1,None,Free,https://www.latentspace.dev,Industry News;Interviews,No,2025-02,Support
+GA049,Podcast,The Gradient Descent Podcast,Various,Research,Research Discussion,Intermediate,1.5,ML Knowledge,Free,https://thegradient.pub,Deep Dives;Expert Interviews,No,2025-01,Support
+GA050,Newsletter,The Neuron,The Neuron,News & Trends,Weekly Updates,Beginner,0.5,None,Free,https://www.theneuron.ai,Curated News;Trends;Tools,No,2025-02,Support

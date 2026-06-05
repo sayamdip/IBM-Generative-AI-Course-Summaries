@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cricket>
+  <metadata>
+    <sport>Cricket</sport>
+    <version>1.0</version>
+    <lastUpdated>2026-05-22</lastUpdated>
+    <description>Comprehensive cricket database with teams, players, matches, and statistics</description>
+  </metadata>
+
+  <teams>
+    <team>
+      <teamId>IND</teamId>
+      <teamName>India</teamName>
+      <country>India</country>
+      <established>1932</established>
+      <coach>Rahul Dravid</coach>
+      <captains>
+        <test>Ben Stokes</test>
+        <odi>Rohit Sharma</odi>
+        <t20>Suryakumar Yadav</t20>
+      </captains>
+      <homeGround>Eden Gardens, Kolkata</homeGround>
+      <statistics>
+        <totalMatches>2847</totalMatches>
+        <wins>1542</wins>
+        <losses>1205</losses>
+        <draws>100</draws>
+        <winPercentage>54.2</winPercentage>
+      </statistics>
+    </team>
+
+    <team>
+      <teamId>AUS</teamId>
+      <teamName>Australia</teamName>
+      <country>Australia</country>
+      <established>1877</established>
+      <coach>Andrew McDonald</coach>
+      <captains>
+        <test>Ben Stokes</test>
+        <odi>Pat Cummins</odi>
+        <t20>Mitchell Marsh</t20>
+      </captains>
+      <homeGround>Melbourne Cricket Ground</homeGround>
+      <statistics>
+        <totalMatches>2756</totalMatches>
+        <wins>1438</wins>
+        <losses>1218</losses>
+        <draws>100</draws>
+        <winPercentage>52.3</winPercentage>
+      </statistics>
+    </team>
+
+    <team>
+      <teamId>ENG</teamId>
+      <teamName>England</teamName>
+      <country>England</country>
+      <established>1877</established>
+      <coach>Brendon McCullum</coach>
+      <captains>
+        <test>Ben Stokes</test>
+        <odi>Jos Buttler</odi>
+        <t20>Jos Buttler</t20>
+      </captains>
+      <homeGround>Lord's Cricket Ground</homeGround>
+      <statistics>
+        <totalMatches>2598</totalMatches>
+        <wins>1289</wins>
+        <losses>1209</losses>
+        <draws>100</draws>
+        <winPercentage>49.6</winPercentage>
+      </statistics>
+    </team>
+
+    <team>
+      <teamId>PAK</teamId>
+      <teamName>Pakistan</teamName>
+      <country>Pakistan</country>
+      <established>1952</established>
+      <coach>Grant Flower</coach>
+      <captains>
+        <test>Ben Stokes</test>
+        <odi>Babar Azam</odi>
+        <t20>Babar Azam</t20>
+      </captains>
+      <homeGround>Gaddafi Stadium</homeGround>
+      <statistics>
+        <totalMatches>2158</totalMatches>
+        <wins>1075</wins>
+        <losses>980</losses>
+        <draws>103</draws>
+        <winPercentage>49.8</winPercentage>
+      </statistics>
+    </team>
+
+    <team>
+      <teamId>WI</teamId>
+      <teamName>West Indies</teamName>
+      <country>West Indies</country>
+      <established>1928</established>
+      <coach>Phil Simmons</coach>
+      <captains>
+        <test>Kraigg Brathwaite</test>
+        <odi>Shai Hope</odi>
+        <t20>Rovman Powell</t20>
+      </captains>
+      <homeGround>Queen's Park Oval</homeGround>
+      <statistics>
+        <totalMatches>1847</totalMatches>
+        <wins>832</wins>
+        <losses>925</losses>
+        <draws>90</draws>
+        <winPercentage>45.1</winPercentage>
+      </statistics>
+    </team>
+  </teams>
+
+  <players>
+    <player>
+      <playerId>P001</playerId>
+      <name>Virat Kohli</name>
+      <country>India</country>
+      <role>Batsman</role>
+      <dateOfBirth>1988-11-05</dateOfBirth>
+      <jerseyNumber>18</jerseyNumber>
+      <battingStyle>Right-handed</battingStyle>
+      <bowlingStyle>N/A</bowlingStyle>
+      <careerStats>
+        <format type="Test">
+          <matches>114</matches>
+          <runs>9157</runs>
+          <average>50.3</average>
+          <centuries>32</centuries>
+        </format>
+        <format type="ODI">
+          <matches>292</matches>
+          <runs>13848</runs>
+          <average>58.2</average>
+          <centuries>46</centuries>
+        </format>
+        <format type="T20">
+          <matches>116</matches>
+          <runs>3989</runs>
+          <average>52.5</average>
+          <halfCenturies>28</halfCenturies>
+        </format>
+      </careerStats>
+    </player>
+
+    <player>
+      <playerId>P002</playerId>
+      <name>Steve Smith</name>
+      <country>Australia</country>
+      <role>Batsman</role>
+      <dateOfBirth>1989-06-17</dateOfBirth>
+      <jerseyNumber>49</jerseyNumber>
+      <battingStyle>Right-handed</battingStyle>
+      <bowlingStyle>Off-break</bowlingStyle>
+      <careerStats>
+        <format type="Test">
+          <matches>89</matches>
+          <runs>8587</runs>
+          <average>63.1</average>
+          <centuries>32</centuries>
+        </format>
+        <format type="ODI">
+          <matches>76</matches>
+          <runs>2859</runs>
+          <average>42.7</average>
+          <centuries>6</centuries>
+        </format>
+        <format type="T20">
+          <matches>35</matches>
+          <runs>1098</runs>
+          <average>38.5</average>
+          <halfCenturies>6</halfCenturies>
+        </format>
+      </careerStats>
+    </player>
+
+    <player>
+      <playerId>P003</playerId>
+      <name>Pat Cummins</name>
+      <country>Australia</country>
+      <role>Bowler</role>
+      <dateOfBirth>1993-01-08</dateOfBirth>
+      <jerseyNumber>30</jerseyNumber>
+      <battingStyle>Right-handed</battingStyle>
+      <bowlingStyle>Fast</bowlingStyle>
+      <careerStats>
+        <format type="Test">
+          <matches>58</matches>
+          <wickets>176</wickets>
+          <bowlingAverage>27.4</bowlingAverage>
+          <bestFigures>6/23</bestFigures>
+        </format>
+        <format type="ODI">
+          <matches>53</matches>
+          <wickets>79</wickets>
+          <bowlingAverage>30.2</bowlingAverage>
+          <bestFigures>5/38</bestFigures>
+        </format>
+        <format type="T20">
+          <matches>34</matches>
+          <wickets>48</wickets>
+          <bowlingAverage>28.1</bowlingAverage>
+          <bestFigures>4/22</bestFigures>
+        </format>
+      </careerStats>
+    </player>
+
+    <player>
+      <playerId>P004</playerId>
+      <name>Joe Root</name>
+      <country>England</country>
+      <role>Batsman</role>
+      <dateOfBirth>1990-12-30</dateOfBirth>
+      <jerseyNumber>66</jerseyNumber>
+      <battingStyle>Right-handed</battingStyle>
+      <bowlingStyle>Off-break</bowlingStyle>
+      <careerStats>
+        <format type="Test">
+          <matches>142</matches>
+          <runs>12628</runs>
+          <average>49.3</average>
+          <centuries>34</centuries>
+        </format>
+        <format type="ODI">
+          <matches>121</matches>
+          <runs>5556</runs>
+          <average>49.6</average>
+          <centuries>16</centuries>
+        </format>
+        <format type="T20">
+          <matches>32</matches>
+          <runs>743</runs>
+          <average>27.5</average>
+          <halfCenturies>3</halfCenturies>
+        </format>
+      </careerStats>
+    </player>
+
+    <player>
+      <playerId>P005</playerId>
+      <name>Jasprit Bumrah</name>
+      <country>India</country>
+      <role>Bowler</role>
+      <dateOfBirth>1993-12-06</dateOfBirth>
+      <jerseyNumber>93</jerseyNumber>
+      <battingStyle>Right-handed</battingStyle>
+      <bowlingStyle>Fast</bowlingStyle>
+      <careerStats>
+        <format type="Test">
+          <matches>41</matches>
+          <wickets>138</wickets>
+          <bowlingAverage>22.1</bowlingAverage>
+          <bestFigures>6/27</bestFigures>
+        </format>
+        <format type="ODI">
+          <matches>87</matches>
+          <wickets>121</wickets>
+          <bowlingAverage>23.4</bowlingAverage>
+          <bestFigures>4/17</bestFigures>
+        </format>
+        <format type="T20">
+          <matches>76</matches>
+          <wickets>89</wickets>
+          <bowlingAverage>20.3</bowlingAverage>
+          <bestFigures>4/12</bestFigures>
+        </format>
+      </careerStats>
+    </player>
+  </players>
+
+  <matches>
+    <match>
+      <matchId>M001</matchId>
+      <matchType>Test</matchType>
+      <series>India vs Australia Test Series 2026</series>
+      <date>2026-02-14</date>
+      <venue>Eden Gardens, Kolkata</venue>
+      <team1>
+        <teamId>IND</teamId>
+        <teamName>India</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>412</runs>
+          <wickets>8</wickets>
+          <overs>120.3</overs>
+        </innings>
+      </team1>
+      <team2>
+        <teamId>AUS</teamId>
+        <teamName>Australia</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>398</runs>
+          <wickets>10</wickets>
+          <overs>145.0</overs>
+        </innings>
+      </team2>
+      <result>India won by 2 runs</result>
+      <playerOfMatch>Virat Kohli</playerOfMatch>
+      <toss>
+        <winner>India</winner>
+        <decision>Bat</decision>
+      </toss>
+      <status>Completed</status>
+    </match>
+
+    <match>
+      <matchId>M002</matchId>
+      <matchType>ODI</matchType>
+      <series>ICC Cricket World Cup 2027</series>
+      <date>2026-03-22</date>
+      <venue>Wankhede Stadium, Mumbai</venue>
+      <team1>
+        <teamId>IND</teamId>
+        <teamName>India</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>287</runs>
+          <wickets>6</wickets>
+          <overs>50</overs>
+        </innings>
+      </team1>
+      <team2>
+        <teamId>PAK</teamId>
+        <teamName>Pakistan</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>254</runs>
+          <wickets>8</wickets>
+          <overs>50</overs>
+        </innings>
+      </team2>
+      <result>India won by 33 runs</result>
+      <playerOfMatch>Rohit Sharma</playerOfMatch>
+      <toss>
+        <winner>Pakistan</winner>
+        <decision>Field</decision>
+      </toss>
+      <status>Completed</status>
+    </match>
+
+    <match>
+      <matchId>M003</matchId>
+      <matchType>T20</matchType>
+      <series>T20 World Cup 2026</series>
+      <date>2026-06-10</date>
+      <venue>MCG, Melbourne</venue>
+      <team1>
+        <teamId>AUS</teamId>
+        <teamName>Australia</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>156</runs>
+          <wickets>4</wickets>
+          <overs>20</overs>
+        </innings>
+      </team1>
+      <team2>
+        <teamId>ENG</teamId>
+        <teamName>England</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>142</runs>
+          <wickets>8</wickets>
+          <overs>20</overs>
+        </innings>
+      </team2>
+      <result>Australia won by 14 runs</result>
+      <playerOfMatch>Marcus Stoinis</playerOfMatch>
+      <toss>
+        <winner>Australia</winner>
+        <decision>Bat</decision>
+      </toss>
+      <status>Completed</status>
+    </match>
+
+    <match>
+      <matchId>M004</matchId>
+      <matchType>T20</matchType>
+      <series>T20 World Cup 2026</series>
+      <date>2026-06-15</date>
+      <venue>Eden Gardens, Kolkata</venue>
+      <team1>
+        <teamId>IND</teamId>
+        <teamName>India</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>178</runs>
+          <wickets>5</wickets>
+          <overs>20</overs>
+        </innings>
+      </team1>
+      <team2>
+        <teamId>WI</teamId>
+        <teamName>West Indies</teamName>
+        <innings>
+          <inningNumber>1</inningNumber>
+          <runs>165</runs>
+          <wickets>7</wickets>
+          <overs>20</overs>
+        </innings>
+      </team2>
+      <result>India won by 13 runs</result>
+      <playerOfMatch>Suryakumar Yadav</playerOfMatch>
+      <toss>
+        <winner>India</winner>
+        <decision>Bat</decision>
+      </toss>
+      <status>Completed</status>
+    </match>
+  </matches>
+
+  <tournaments>
+    <tournament>
+      <tournamentId>T001</tournamentId>
+      <tournamentName>ICC Cricket World Cup 2027</tournamentName>
+      <format>ODI</format>
+      <hostCountry>India</hostCountry>
+      <startDate>2027-02-01</startDate>
+      <endDate>2027-03-28</endDate>
+      <details>
+        <totalMatches>48</totalMatches>
+        <participatingTeams>10</participatingTeams>
+        <prizePool>$5 Million</prizePool>
+        <status>Scheduled</status>
+      </details>
+    </tournament>
+
+    <tournament>
+      <tournamentId>T002</tournamentId>
+      <tournamentName>T20 World Cup 2026</tournamentName>
+      <format>T20</format>
+      <hostCountry>Australia</hostCountry>
+      <startDate>2026-06-01</startDate>
+      <endDate>2026-07-15</endDate>
+      <details>
+        <totalMatches>55</totalMatches>
+        <participatingTeams>16</participatingTeams>
+        <prizePool>$3 Million</prizePool>
+        <status>In Progress</status>
+      </details>
+    </tournament>
+
+    <tournament>
+      <tournamentId>T003</tournamentId>
+      <tournamentName>Indian Premier League 2026</tournamentName>
+      <format>T20</format>
+      <hostCountry>India</hostCountry>
+      <startDate>2026-04-09</startDate>
+      <endDate>2026-05-26</endDate>
+      <details>
+        <totalMatches>74</totalMatches>
+        <participatingTeams>10</participatingTeams>
+        <prizePool>₹600 Crore</prizePool>
+        <status>In Progress</status>
+      </details>
+    </tournament>
+
+    <tournament>
+      <tournamentId>T004</tournamentId>
+      <tournamentName>Ashes Series 2026</tournamentName>
+      <format>Test</format>
+      <hostCountry>England</hostCountry>
+      <startDate>2026-08-01</startDate>
+      <endDate>2026-09-14</endDate>
+      <details>
+        <totalMatches>5</totalMatches>
+        <participatingTeams>2</participatingTeams>
+        <prizePool>£2 Million</prizePool>
+        <status>Scheduled</status>
+      </details>
+    </tournament>
+  </tournaments>
+
+  <rankings>
+    <rankingCategory type="Test Batting">
+      <rank position="1">
+        <playerName>Joe Root</playerName>
+        <country>England</country>
+        <rating>894</rating>
+      </rank>
+      <rank position="2">
+        <playerName>Steve Smith</playerName>
+        <country>Australia</country>
+        <rating>887</rating>
+      </rank>
+      <rank position="3">
+        <playerName>Virat Kohli</playerName>
+        <country>India</country>
+        <rating>876</rating>
+      </rank>
+    </rankingCategory>
+
+    <rankingCategory type="ODI Batting">
+      <rank position="1">
+        <playerName>Virat Kohli</playerName>
+        <country>India</country>
+        <rating>873</rating>
+      </rank>
+      <rank position="2">
+        <playerName>Babar Azam</playerName>
+        <country>Pakistan</country>
+        <rating>856</rating>
+      </rank>
+      <rank position="3">
+        <playerName>Rohit Sharma</playerName>
+        <country>India</country>
+        <rating>842</rating>
+      </rank>
+    </rankingCategory>
+
+    <rankingCategory type="Test Bowling">
+      <rank position="1">
+        <playerName>Pat Cummins</playerName>
+        <country>Australia</country>
+        <rating>912</rating>
+      </rank>
+      <rank position="2">
+        <playerName>Jasprit Bumrah</playerName>
+        <country>India</country>
+        <rating>899</rating>
+      </rank>
+      <rank position="3">
+        <playerName>Neil Wagner</playerName>
+        <country>New Zealand</country>
+        <rating>876</rating>
+      </rank>
+    </rankingCategory>
+
+    <rankingCategory type="T20 Batting">
+      <rank position="1">
+        <playerName>Suryakumar Yadav</playerName>
+        <country>India</country>
+        <rating>891</rating>
+      </rank>
+      <rank position="2">
+        <playerName>Babar Azam</playerName>
+        <country>Pakistan</country>
+        <rating>878</rating>
+      </rank>
+      <rank position="3">
+        <playerName>Virat Kohli</playerName>
+        <country>India</country>
+        <rating>865</rating>
+      </rank>
+    </rankingCategory>
+  </rankings>
+
+  <statistics>
+    <globalStats>
+      <totalTestMatches>12586</totalTestMatches>
+      <totalODIMatches>8765</totalODIMatches>
+      <totalT20Matches>4523</totalT20Matches>
+      <totalMatches>25874</totalMatches>
+      <countriesParticipating>12</countriesParticipating>
+      <totalPlayersRegistered>3847</totalPlayersRegistered>
+      <internationalVenues>147</internationalVenues>
+    </globalStats>
+
+    <formatStats>
+      <format type="Test">
+        <totalMatches>12586</totalMatches>
+        <averageRunsPerInnings>355</averageRunsPerInnings>
+        <averageWicketsPerMatch>16.8</averageWicketsPerMatch>
+        <longestMatch>2784</longestMatch>
+      </format>
+      <format type="ODI">
+        <totalMatches>8765</totalMatches>
+        <averageRunsPerInnings>262</averageRunsPerInnings>
+        <averageWicketsPerMatch>14.2</averageWicketsPerMatch>
+        <standardOvers>50</standardOvers>
+      </format>
+      <format type="T20">
+        <totalMatches>4523</totalMatches>
+        <averageRunsPerInnings>158</averageRunsPerInnings>
+        <averageWicketsPerMatch>12.5</averageWicketsPerMatch>
+        <standardOvers>20</standardOvers>
+      </format>
+    </formatStats>
+  </statistics>
+
+  <venues>
+    <venue>
+      <venueId>V001</venueId>
+      <venueName>Eden Gardens</venueName>
+      <city>Kolkata</city>
+      <country>India</country>
+      <capacity>66000</capacity>
+      <established>1934</established>
+      <pitchType>Slow and Turning</pitchType>
+    </venue>
+    <venue>
+      <venueId>V002</venueId>
+      <venueName>Melbourne Cricket Ground</venueName>
+      <city>Melbourne</city>
+      <country>Australia</country>
+      <capacity>100024</capacity>
+      <established>1854</established>
+      <pitchType>Hard and Fast</pitchType>
+    </venue>
+    <venue>
+      <venueId>V003</venueId>
+      <venueName>Lord's Cricket Ground</venueName>
+      <city>London</city>
+      <country>England</country>
+      <capacity>30000</capacity>
+      <established>1814</established>
+      <pitchType>Green and Seaming</pitchType>
+    </venue>
+    <venue>
+      <venueId>V004</venueId>
+      <venueName>Wankhede Stadium</venueName>
+      <city>Mumbai</city>
+      <country>India</country>
+      <capacity>33000</capacity>
+      <established>1974</established>
+      <pitchType>Batting-Friendly</pitchType>
+    </venue>
+  </venues>
+
+</cricket>
