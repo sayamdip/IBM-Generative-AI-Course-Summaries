@@ -1,0 +1,374 @@
+{
+  "cricket": {
+    "metadata": {
+      "sport": "Cricket",
+      "version": "1.0",
+      "last_updated": "2026-05-22",
+      "description": "Comprehensive cricket database with teams, players, matches, and statistics"
+    },
+    "teams": [
+      {
+        "team_id": "IND",
+        "team_name": "India",
+        "country": "India",
+        "established": 1932,
+        "coach": "Rahul Dravid",
+        "captain": {
+          "test": "Ben Stokes",
+          "odi": "Rohit Sharma",
+          "t20": "Suryakumar Yadav"
+        },
+        "home_ground": "Eden Gardens, Kolkata",
+        "total_matches": 2847,
+        "wins": 1542,
+        "losses": 1205,
+        "draws": 100,
+        "win_percentage": 54.2
+      },
+      {
+        "team_id": "AUS",
+        "team_name": "Australia",
+        "country": "Australia",
+        "established": 1877,
+        "coach": "Andrew McDonald",
+        "captain": {
+          "test": "Ben Stokes",
+          "odi": "Pat Cummins",
+          "t20": "Mitchell Marsh"
+        },
+        "home_ground": "Melbourne Cricket Ground",
+        "total_matches": 2756,
+        "wins": 1438,
+        "losses": 1218,
+        "draws": 100,
+        "win_percentage": 52.3
+      },
+      {
+        "team_id": "ENG",
+        "team_name": "England",
+        "country": "England",
+        "established": 1877,
+        "coach": "Brendon McCullum",
+        "captain": {
+          "test": "Ben Stokes",
+          "odi": "Jos Buttler",
+          "t20": "Jos Buttler"
+        },
+        "home_ground": "Lord's Cricket Ground",
+        "total_matches": 2598,
+        "wins": 1289,
+        "losses": 1209,
+        "draws": 100,
+        "win_percentage": 49.6
+      },
+      {
+        "team_id": "PAK",
+        "team_name": "Pakistan",
+        "country": "Pakistan",
+        "established": 1952,
+        "coach": "Grant Flower",
+        "captain": {
+          "test": "Ben Stokes",
+          "odi": "Babar Azam",
+          "t20": "Babar Azam"
+        },
+        "home_ground": "Gaddafi Stadium",
+        "total_matches": 2158,
+        "wins": 1075,
+        "losses": 980,
+        "draws": 103,
+        "win_percentage": 49.8
+      }
+    ],
+    "players": [
+      {
+        "player_id": "P001",
+        "name": "Virat Kohli",
+        "country": "India",
+        "role": "Batsman",
+        "date_of_birth": "1988-11-05",
+        "jersey_number": 18,
+        "batting_style": "Right-handed",
+        "bowling_style": "N/A",
+        "career_stats": {
+          "test": {
+            "matches": 114,
+            "runs": 9157,
+            "average": 50.3,
+            "centuries": 32
+          },
+          "odi": {
+            "matches": 292,
+            "runs": 13848,
+            "average": 58.2,
+            "centuries": 46
+          },
+          "t20": {
+            "matches": 116,
+            "runs": 3989,
+            "average": 52.5,
+            "half_centuries": 28
+          }
+        }
+      },
+      {
+        "player_id": "P002",
+        "name": "Steve Smith",
+        "country": "Australia",
+        "role": "Batsman",
+        "date_of_birth": "1989-06-17",
+        "jersey_number": 49,
+        "batting_style": "Right-handed",
+        "bowling_style": "Off-break",
+        "career_stats": {
+          "test": {
+            "matches": 89,
+            "runs": 8587,
+            "average": 63.1,
+            "centuries": 32
+          },
+          "odi": {
+            "matches": 76,
+            "runs": 2859,
+            "average": 42.7,
+            "centuries": 6
+          },
+          "t20": {
+            "matches": 35,
+            "runs": 1098,
+            "average": 38.5,
+            "half_centuries": 6
+          }
+        }
+      },
+      {
+        "player_id": "P003",
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "role": "Bowler",
+        "date_of_birth": "1993-01-08",
+        "jersey_number": 30,
+        "batting_style": "Right-handed",
+        "bowling_style": "Fast",
+        "career_stats": {
+          "test": {
+            "matches": 58,
+            "wickets": 176,
+            "bowling_average": 27.4,
+            "best_figures": "6/23"
+          },
+          "odi": {
+            "matches": 53,
+            "wickets": 79,
+            "bowling_average": 30.2,
+            "best_figures": "5/38"
+          },
+          "t20": {
+            "matches": 34,
+            "wickets": 48,
+            "bowling_average": 28.1,
+            "best_figures": "4/22"
+          }
+        }
+      },
+      {
+        "player_id": "P004",
+        "name": "Joe Root",
+        "country": "England",
+        "role": "Batsman",
+        "date_of_birth": "1990-12-30",
+        "jersey_number": 66,
+        "batting_style": "Right-handed",
+        "bowling_style": "Off-break",
+        "career_stats": {
+          "test": {
+            "matches": 142,
+            "runs": 12628,
+            "average": 49.3,
+            "centuries": 34
+          },
+          "odi": {
+            "matches": 121,
+            "runs": 5556,
+            "average": 49.6,
+            "centuries": 16
+          },
+          "t20": {
+            "matches": 32,
+            "runs": 743,
+            "average": 27.5,
+            "half_centuries": 3
+          }
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "M001",
+        "match_type": "Test",
+        "series": "India vs Australia Test Series 2026",
+        "date": "2026-02-14",
+        "venue": "Eden Gardens, Kolkata",
+        "team1": {
+          "team_id": "IND",
+          "team_name": "India",
+          "runs": 412,
+          "wickets": 8
+        },
+        "team2": {
+          "team_id": "AUS",
+          "team_name": "Australia",
+          "runs": 398,
+          "wickets": 10
+        },
+        "result": "India won by 2 runs",
+        "player_of_match": "Virat Kohli",
+        "toss_winner": "India",
+        "toss_decision": "Bat"
+      },
+      {
+        "match_id": "M002",
+        "match_type": "ODI",
+        "series": "ICC Cricket World Cup 2027",
+        "date": "2026-03-22",
+        "venue": "Wankhede Stadium, Mumbai",
+        "team1": {
+          "team_id": "IND",
+          "team_name": "India",
+          "runs": 287,
+          "wickets": 6
+        },
+        "team2": {
+          "team_id": "PAK",
+          "team_name": "Pakistan",
+          "runs": 254,
+          "wickets": 8
+        },
+        "result": "India won by 33 runs",
+        "player_of_match": "Rohit Sharma",
+        "toss_winner": "Pakistan",
+        "toss_decision": "Field"
+      },
+      {
+        "match_id": "M003",
+        "match_type": "T20",
+        "series": "T20 World Cup 2026",
+        "date": "2026-06-10",
+        "venue": "MCG, Melbourne",
+        "team1": {
+          "team_id": "AUS",
+          "team_name": "Australia",
+          "runs": 156,
+          "wickets": 4
+        },
+        "team2": {
+          "team_id": "ENG",
+          "team_name": "England",
+          "runs": 142,
+          "wickets": 8
+        },
+        "result": "Australia won by 14 runs",
+        "player_of_match": "Marcus Stoinis",
+        "toss_winner": "Australia",
+        "toss_decision": "Bat"
+      }
+    ],
+    "tournaments": [
+      {
+        "tournament_id": "T001",
+        "tournament_name": "ICC Cricket World Cup 2027",
+        "format": "ODI",
+        "host_country": "India",
+        "start_date": "2027-02-01",
+        "end_date": "2027-03-28",
+        "total_matches": 48,
+        "participating_teams": 10,
+        "prize_pool": "$5 Million",
+        "status": "Scheduled"
+      },
+      {
+        "tournament_id": "T002",
+        "tournament_name": "T20 World Cup 2026",
+        "format": "T20",
+        "host_country": "Australia",
+        "start_date": "2026-06-01",
+        "end_date": "2026-07-15",
+        "total_matches": 55,
+        "participating_teams": 16,
+        "prize_pool": "$3 Million",
+        "status": "In Progress"
+      },
+      {
+        "tournament_id": "T003",
+        "tournament_name": "Indian Premier League 2026",
+        "format": "T20",
+        "host_country": "India",
+        "start_date": "2026-04-09",
+        "end_date": "2026-05-26",
+        "total_matches": 74,
+        "participating_teams": 10,
+        "prize_pool": "₹600 Crore",
+        "status": "In Progress"
+      }
+    ],
+    "rankings": [
+      {
+        "ranking_type": "Test Batting",
+        "rank": 1,
+        "player_name": "Joe Root",
+        "country": "England",
+        "rating": 894
+      },
+      {
+        "ranking_type": "Test Batting",
+        "rank": 2,
+        "player_name": "Steve Smith",
+        "country": "Australia",
+        "rating": 887
+      },
+      {
+        "ranking_type": "Test Batting",
+        "rank": 3,
+        "player_name": "Virat Kohli",
+        "country": "India",
+        "rating": 876
+      },
+      {
+        "ranking_type": "ODI Batting",
+        "rank": 1,
+        "player_name": "Virat Kohli",
+        "country": "India",
+        "rating": 873
+      },
+      {
+        "ranking_type": "ODI Batting",
+        "rank": 2,
+        "player_name": "Babar Azam",
+        "country": "Pakistan",
+        "rating": 856
+      },
+      {
+        "ranking_type": "Test Bowling",
+        "rank": 1,
+        "player_name": "Pat Cummins",
+        "country": "Australia",
+        "rating": 912
+      },
+      {
+        "ranking_type": "Test Bowling",
+        "rank": 2,
+        "player_name": "Jasprit Bumrah",
+        "country": "India",
+        "rating": 899
+      }
+    ],
+    "statistics": {
+      "total_test_matches": 12586,
+      "total_odi_matches": 8765,
+      "total_t20_matches": 4523,
+      "countries_participating": 12,
+      "total_players_registered": 3847,
+      "international_venues": 147
+    }
+  }
+}
